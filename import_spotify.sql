@@ -1,0 +1,22 @@
+CREATE TABLE spotify_tracks (
+    track_id TEXT,
+    artists TEXT,
+    album_name TEXT,
+    track_name TEXT,
+    popularity INTEGER,
+    duration_ms INTEGER,
+    explicit BOOLEAN,
+    danceability FLOAT,
+    energy FLOAT,
+    key INTEGER,
+    loudness FLOAT,
+    mode INTEGER,
+    speechiness FLOAT,
+    acousticness FLOAT,
+    instrumentalness FLOAT,
+    liveness FLOAT,
+    valence FLOAT,
+    tempo FLOAT,
+    time_signature INTEGER,
+    track_genre TEXT
+);
