@@ -25,7 +25,7 @@ SELECT
 FROM spotify_tracks
 WHERE popularity > 80;
 
---
+
 -- 3. Audio features for LOW popularity songs (<30)
 
 SELECT
@@ -126,7 +126,7 @@ FROM spotify_tracks
 GROUP BY tempo_category
 ORDER BY avg_popularity DESC;
 
--- 12. Identify potential "clusters" of songs using features
+-- 12. Identify potential clusters of songs using features
 
 SELECT
     track_name,
